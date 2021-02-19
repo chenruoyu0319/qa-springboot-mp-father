@@ -1,0 +1,28 @@
+
+V
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8È±¬“ö.
+^
+java:S3457N"AFormat specifiers should be used instead of string concatenation.(œ–„‹8È±¬“ö.
+c
+java:S3457I"AFormat specifiers should be used instead of string concatenation.(«€£¤ıÿÿÿÿ8È±¬“ö.
+H
+java:S1481Y"+Remove this unused "delete" local variable.(„¤”ú8àŞ¶“ö.
+W
+java:S1854H":Remove this useless assignment to local variable "delete".(„¤”ú8È±¬“ö.
+W
+java:S1854Y":Remove this useless assignment to local variable "delete".(„¤”ú8àŞ¶“ö.
+Y
+java:S2629I"7Use the built-in formatting to construct this argument.(«€£¤ıÿÿÿÿ8È±¬“ö.
+T
+java:S2629N"7Use the built-in formatting to construct this argument.(œ–„‹8È±¬“ö.
+
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(à‚½8È±¬“ö.
+T
+java:S1135)"2Complete the task associated to this TODO comment.(– ¤¢şÿÿÿÿ8³”˜ö.
+]	java:S125?"<This block of commented-out lines of code should be removed.(îøĞûÿÿÿÿ8È±¬“ö.
+c
+java:S3457Z"AFormat specifiers should be used instead of string concatenation.(Ù‡•§şÿÿÿÿ8àŞ¶“ö.
+Y
+java:S2629Z"7Use the built-in formatting to construct this argument.(Ù‡•§şÿÿÿÿ8àŞ¶“ö.
+H
+java:S1481H"+Remove this unused "delete" local variable.(„¤”ú8È±¬“ö.

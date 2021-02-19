@@ -1,0 +1,376 @@
+2021-02-19 00:35:45.587  INFO 3280 --- [main] com.cry.qa.config.RedisConfigTest        : Starting RedisConfigTest on LAPTOP-ACJU2B8U with PID 3280 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 00:35:45.596  INFO 3280 --- [main] com.cry.qa.config.RedisConfigTest        : No active profile set, falling back to default profiles: default
+2021-02-19 00:35:46.759  INFO 3280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 00:35:46.763  INFO 3280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 00:35:46.830  INFO 3280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2021-02-19 00:35:47.611  INFO 3280 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 00:35:47.628  INFO 3280 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$dec5a114] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 00:35:47.657  INFO 3280 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 00:35:48.600  INFO 3280 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 00:35:48.604  INFO 3280 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 00:35:48.606  INFO 3280 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 00:35:48.607  INFO 3280 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 00:35:48.607  INFO 3280 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 00:35:48.607  INFO 3280 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 00:35:48.608  INFO 3280 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 00:35:48.824  INFO 3280 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 00:35:48.831  WARN 3280 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 00:35:48.835  INFO 3280 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 00:35:48.838  INFO 3280 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 00:35:48.839  INFO 3280 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 00:35:48.845  INFO 3280 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 00:35:50.088  INFO 3280 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 00:35:51.120  INFO 3280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 00:35:52.521  INFO 3280 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 00:35:54.679  INFO 3280 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 00:35:54.683  INFO 3280 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 00:35:54.728  INFO 3280 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 00:35:54.974  INFO 3280 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 00:35:54.976  INFO 3280 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 00:35:55.070  INFO 3280 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 00:35:55.106  INFO 3280 --- [main] com.cry.qa.config.RedisConfigTest        : Started RedisConfigTest in 10.018 seconds (JVM running for 10.835)
+2021-02-19 00:35:55.551  INFO 3280 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 00:35:55.554  INFO 3280 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 00:35:55.558  INFO 3280 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 00:35:55.558  INFO 3280 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 00:35:55.559  INFO 3280 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 00:35:55.559  INFO 3280 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 01:06:44.198  INFO 13308 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 13308 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 01:06:44.199  INFO 13308 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 01:06:45.314  INFO 13308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 01:06:45.320  INFO 13308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 01:06:45.387  INFO 13308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2021-02-19 01:06:46.172  INFO 13308 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:06:46.191  INFO 13308 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7bc04c4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:06:46.223  INFO 13308 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:06:47.131  INFO 13308 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 01:06:47.135  INFO 13308 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 01:06:47.137  INFO 13308 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 01:06:47.138  INFO 13308 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 01:06:47.138  INFO 13308 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 01:06:47.138  INFO 13308 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 01:06:47.138  INFO 13308 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 01:06:47.309  INFO 13308 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 01:06:47.317  WARN 13308 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 01:06:47.320  INFO 13308 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 01:06:47.323  INFO 13308 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 01:06:47.325  INFO 13308 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 01:06:47.331  INFO 13308 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:06:48.510  INFO 13308 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:06:49.541  INFO 13308 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 01:06:50.928  INFO 13308 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 01:06:53.116  INFO 13308 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 01:06:53.120  INFO 13308 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 01:06:53.157  INFO 13308 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 01:06:53.408  INFO 13308 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 01:06:53.411  INFO 13308 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 01:06:53.507  INFO 13308 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 01:06:53.553  INFO 13308 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 9.882 seconds (JVM running for 10.775)
+2021-02-19 01:06:53.895  INFO 13308 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 01:06:53.897  INFO 13308 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 01:06:53.901  INFO 13308 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 01:06:53.901  INFO 13308 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 01:06:53.902  INFO 13308 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 01:06:53.902  INFO 13308 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 01:09:15.208  INFO 7284 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 7284 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 01:09:15.209  INFO 7284 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 01:09:16.337  INFO 7284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 01:09:16.341  INFO 7284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 01:09:16.415  INFO 7284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2021-02-19 01:09:17.191  INFO 7284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:09:17.209  INFO 7284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7bc04c4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:09:17.241  INFO 7284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:09:18.199  INFO 7284 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 01:09:18.202  INFO 7284 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 01:09:18.212  INFO 7284 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 01:09:18.213  INFO 7284 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 01:09:18.214  INFO 7284 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 01:09:18.214  INFO 7284 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 01:09:18.214  INFO 7284 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 01:09:18.415  INFO 7284 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 01:09:18.425  WARN 7284 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 01:09:18.428  INFO 7284 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 01:09:18.430  INFO 7284 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 01:09:18.432  INFO 7284 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 01:09:18.439  INFO 7284 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:09:19.705  INFO 7284 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:09:20.796  INFO 7284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 01:09:22.132  INFO 7284 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 01:09:24.236  INFO 7284 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 01:09:24.240  INFO 7284 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 01:09:24.280  INFO 7284 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 01:09:24.538  INFO 7284 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 01:09:24.540  INFO 7284 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 01:09:24.635  INFO 7284 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 01:09:24.681  INFO 7284 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 9.955 seconds (JVM running for 10.78)
+2021-02-19 01:09:25.038  INFO 7284 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 01:09:25.040  INFO 7284 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 01:09:25.043  INFO 7284 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 01:09:25.043  INFO 7284 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 01:09:25.044  INFO 7284 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 01:09:25.045  INFO 7284 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 01:10:17.097  INFO 8840 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 8840 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 01:10:17.098  INFO 8840 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 01:10:18.240  INFO 8840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 01:10:18.243  INFO 8840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 01:10:18.321  INFO 8840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 0 Redis repository interfaces.
+2021-02-19 01:10:19.088  INFO 8840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:10:19.106  INFO 8840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$19980d9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:10:19.141  INFO 8840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:10:20.097  INFO 8840 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 01:10:20.100  INFO 8840 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 01:10:20.103  INFO 8840 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 01:10:20.103  INFO 8840 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 01:10:20.104  INFO 8840 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 01:10:20.104  INFO 8840 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 01:10:20.104  INFO 8840 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 01:10:20.308  INFO 8840 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 01:10:20.315  WARN 8840 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 01:10:20.318  INFO 8840 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 01:10:20.321  INFO 8840 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 01:10:20.322  INFO 8840 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 01:10:20.329  INFO 8840 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:10:21.549  INFO 8840 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:10:22.557  INFO 8840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 01:10:23.685  INFO 8840 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 01:10:25.770  INFO 8840 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 01:10:25.773  INFO 8840 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 01:10:25.825  INFO 8840 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 01:10:26.106  INFO 8840 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 01:10:26.110  INFO 8840 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 01:10:26.196  INFO 8840 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 01:10:26.232  INFO 8840 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 9.635 seconds (JVM running for 10.469)
+2021-02-19 01:10:26.651  INFO 8840 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 01:10:26.654  INFO 8840 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 01:10:26.657  INFO 8840 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 01:10:26.658  INFO 8840 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 01:10:26.659  INFO 8840 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 01:10:26.660  INFO 8840 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 01:12:19.565  INFO 16268 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 16268 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 01:12:19.566  INFO 16268 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 01:12:20.842  INFO 16268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 01:12:20.845  INFO 16268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 01:12:20.911  INFO 16268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2021-02-19 01:12:21.675  INFO 16268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:12:21.696  INFO 16268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$79dfa145] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:12:21.732  INFO 16268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 01:12:22.733  INFO 16268 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 01:12:22.737  INFO 16268 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 01:12:22.740  INFO 16268 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 01:12:22.741  INFO 16268 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 01:12:22.741  INFO 16268 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 01:12:22.741  INFO 16268 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 01:12:22.742  INFO 16268 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 01:12:22.936  INFO 16268 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 01:12:22.945  WARN 16268 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 01:12:22.948  INFO 16268 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 01:12:22.952  INFO 16268 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 01:12:22.954  INFO 16268 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 01:12:22.960  INFO 16268 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:12:24.194  INFO 16268 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 01:12:25.247  INFO 16268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 01:12:26.594  INFO 16268 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 01:12:28.843  INFO 16268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 01:12:28.846  INFO 16268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 01:12:28.885  INFO 16268 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 01:12:29.119  INFO 16268 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 01:12:29.122  INFO 16268 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 01:12:29.216  INFO 16268 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 01:12:29.252  INFO 16268 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 10.216 seconds (JVM running for 11.063)
+2021-02-19 01:12:29.663  INFO 16268 --- [main] com.cry.qa.config.RedisConfig2           : 加载properties文件内容完成...........
+2021-02-19 01:12:29.663  INFO 16268 --- [main] com.cry.qa.config.RedisConfig2           : properties文件内容：@annotation(com.cry.qa.annotation.RedisCachePageObject)
+2021-02-19 01:12:29.694  INFO 16268 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 01:12:29.696  INFO 16268 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 01:12:29.699  INFO 16268 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 01:12:29.700  INFO 16268 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 01:12:29.700  INFO 16268 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 01:12:29.700  INFO 16268 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 02:52:39.922  INFO 12688 --- [main] com.cry.qa.QaApplication                 : Starting QaApplication on LAPTOP-ACJU2B8U with PID 12688 (C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father)
+2021-02-19 02:52:39.925  INFO 12688 --- [main] com.cry.qa.QaApplication                 : No active profile set, falling back to default profiles: default
+2021-02-19 02:52:40.940  INFO 12688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 02:52:40.941  INFO 12688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 02:52:40.994  INFO 12688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+2021-02-19 02:52:41.379  INFO 12688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 02:52:41.390  INFO 12688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9eed85a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 02:52:41.406  INFO 12688 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 02:52:41.940  INFO 12688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2021-02-19 02:52:41.992  INFO 12688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-19 02:52:41.993  INFO 12688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-02-19 02:52:42.113  INFO 12688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-19 02:52:42.113  INFO 12688 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2015 ms
+2021-02-19 02:52:42.501  INFO 12688 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 02:52:42.503  INFO 12688 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 02:52:42.505  INFO 12688 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 02:52:42.506  INFO 12688 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 02:52:42.506  INFO 12688 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 02:52:42.506  INFO 12688 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 02:52:42.506  INFO 12688 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 02:52:42.602  INFO 12688 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 02:52:42.605  WARN 12688 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 02:52:42.606  INFO 12688 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 02:52:42.608  INFO 12688 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 02:52:42.609  INFO 12688 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 02:52:42.611  INFO 12688 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 02:52:43.418  INFO 12688 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 02:52:43.844  INFO 12688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 02:52:44.439  INFO 12688 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 02:52:46.259  INFO 12688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2021-02-19 02:52:46.261  INFO 12688 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 02:52:46.263  INFO 12688 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 02:52:46.290  INFO 12688 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 02:52:46.429  INFO 12688 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 02:52:46.431  INFO 12688 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 02:52:46.488  INFO 12688 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 02:52:46.512  INFO 12688 --- [main] com.cry.qa.QaApplication                 : Started QaApplication in 7.062 seconds (JVM running for 7.818)
+2021-02-19 02:55:29.476  INFO 16028 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 16028 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 02:55:29.478  INFO 16028 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 02:55:30.870  INFO 16028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 02:55:30.873  INFO 16028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 02:55:30.942  INFO 16028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 0 Redis repository interfaces.
+2021-02-19 02:55:31.745  INFO 16028 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 02:55:31.764  INFO 16028 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ffd551ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 02:55:31.796  INFO 16028 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 02:55:32.722  INFO 16028 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 02:55:32.725  INFO 16028 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 02:55:32.727  INFO 16028 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 02:55:32.728  INFO 16028 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 02:55:32.728  INFO 16028 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 02:55:32.728  INFO 16028 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 02:55:32.728  INFO 16028 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 02:55:32.909  INFO 16028 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 02:55:32.919  WARN 16028 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 02:55:32.922  INFO 16028 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 02:55:32.925  INFO 16028 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 02:55:32.927  INFO 16028 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 02:55:32.933  INFO 16028 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 02:55:34.193  INFO 16028 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 02:55:35.263  INFO 16028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 02:55:36.680  INFO 16028 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 02:55:38.959  INFO 16028 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 02:55:38.963  INFO 16028 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 02:55:39.005  INFO 16028 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 02:55:39.252  INFO 16028 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 02:55:39.255  INFO 16028 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 02:55:39.343  INFO 16028 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 02:55:39.385  INFO 16028 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 10.431 seconds (JVM running for 11.239)
+2021-02-19 02:55:39.790  INFO 16028 --- [main] com.cry.qa.config.RedisConfig2           : 加载properties文件内容完成...........
+2021-02-19 02:55:39.791  INFO 16028 --- [main] com.cry.qa.config.RedisConfig2           : properties文件内容：@annotation(com.cry.qa.annotation.RedisCachePageObject)
+2021-02-19 02:55:39.829  INFO 16028 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 02:55:39.831  INFO 16028 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 02:55:39.835  INFO 16028 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 02:55:39.835  INFO 16028 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 02:55:39.836  INFO 16028 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 02:55:39.836  INFO 16028 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 04:01:36.355  INFO 6344 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 6344 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 04:01:36.356  INFO 6344 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 04:01:37.715  INFO 6344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 04:01:37.718  INFO 6344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 04:01:37.792  INFO 6344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 0 Redis repository interfaces.
+2021-02-19 04:01:38.593  INFO 6344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:01:38.613  INFO 6344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$71e71808] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:01:38.649  INFO 6344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:01:39.562  INFO 6344 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 04:01:39.566  INFO 6344 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 04:01:39.568  INFO 6344 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 04:01:39.569  INFO 6344 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 04:01:39.569  INFO 6344 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 04:01:39.570  INFO 6344 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 04:01:39.570  INFO 6344 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 04:01:39.749  INFO 6344 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 04:01:39.758  WARN 6344 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 04:01:39.762  INFO 6344 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 04:01:39.765  INFO 6344 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 04:01:39.767  INFO 6344 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 04:01:39.774  INFO 6344 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 04:01:40.946  INFO 6344 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 04:01:41.994  INFO 6344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 04:01:43.363  INFO 6344 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 04:01:45.577  INFO 6344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 04:01:45.580  INFO 6344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 04:01:45.626  INFO 6344 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 04:01:45.896  INFO 6344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 04:01:45.898  INFO 6344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 04:01:45.992  INFO 6344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 04:01:46.027  INFO 6344 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 10.219 seconds (JVM running for 11.046)
+2021-02-19 04:01:46.473  INFO 6344 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 04:01:46.475  INFO 6344 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 04:01:46.480  INFO 6344 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 04:01:46.480  INFO 6344 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 04:01:46.481  INFO 6344 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 04:01:46.481  INFO 6344 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 04:02:13.344  INFO 3080 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 3080 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 04:02:13.346  INFO 3080 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 04:02:14.717  INFO 3080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 04:02:14.721  INFO 3080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 04:02:14.793  INFO 3080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 0 Redis repository interfaces.
+2021-02-19 04:02:15.593  INFO 3080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:02:15.615  INFO 3080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$71e71808] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:02:15.649  INFO 3080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:02:16.599  INFO 3080 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 04:02:16.602  INFO 3080 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 04:02:16.604  INFO 3080 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 04:02:16.605  INFO 3080 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 04:02:16.605  INFO 3080 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 04:02:16.605  INFO 3080 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 04:02:16.605  INFO 3080 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 04:02:16.793  INFO 3080 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 04:02:16.801  WARN 3080 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 04:02:16.805  INFO 3080 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 04:02:16.808  INFO 3080 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 04:02:16.809  INFO 3080 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 04:02:16.816  INFO 3080 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 04:02:17.995  INFO 3080 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 04:02:19.057  INFO 3080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 04:02:20.442  INFO 3080 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 04:02:22.573  INFO 3080 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 04:02:22.576  INFO 3080 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 04:02:22.617  INFO 3080 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 04:02:22.882  INFO 3080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 04:02:22.885  INFO 3080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 04:02:22.980  INFO 3080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 04:02:23.015  INFO 3080 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 10.22 seconds (JVM running for 11.058)
+2021-02-19 04:02:23.463  INFO 3080 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 04:02:23.465  INFO 3080 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 04:02:23.470  INFO 3080 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 04:02:23.470  INFO 3080 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 04:02:23.471  INFO 3080 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 04:02:23.471  INFO 3080 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye
+2021-02-19 04:03:07.470  INFO 2752 --- [main] com.cry.qa.config.RedisConfig2Test       : Starting RedisConfig2Test on LAPTOP-ACJU2B8U with PID 2752 (started by ASUS in C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp)
+2021-02-19 04:03:07.472  INFO 2752 --- [main] com.cry.qa.config.RedisConfig2Test       : No active profile set, falling back to default profiles: default
+2021-02-19 04:03:08.790  INFO 2752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-19 04:03:08.793  INFO 2752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-19 04:03:08.861  INFO 2752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2021-02-19 04:03:09.622  INFO 2752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:03:09.644  INFO 2752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ffd551ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:03:09.681  INFO 2752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-19 04:03:10.627  INFO 2752 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2021-02-19 04:03:10.631  INFO 2752 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave_2} inited
+2021-02-19 04:03:10.634  INFO 2752 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3,slave_1} inited
+2021-02-19 04:03:10.635  INFO 2752 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_2] success
+2021-02-19 04:03:10.635  INFO 2752 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [master] success
+2021-02-19 04:03:10.635  INFO 2752 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource - load a datasource named [slave_1] success
+2021-02-19 04:03:10.635  INFO 2752 --- [main] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource initial loaded [3] datasource,primary datasource named [master]
+2021-02-19 04:03:10.811  INFO 2752 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+2021-02-19 04:03:10.817  WARN 2752 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2021-02-19 04:03:10.820  INFO 2752 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.4.0, Thread Name: main
+2021-02-19 04:03:10.823  INFO 2752 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2021-02-19 04:03:10.824  INFO 2752 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2021-02-19 04:03:10.831  INFO 2752 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 04:03:12.007  INFO 2752 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+2021-02-19 04:03:13.085  INFO 2752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolExecutor'
+2021-02-19 04:03:14.484  INFO 2752 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-02-19 04:03:16.740  INFO 2752 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2021-02-19 04:03:16.744  INFO 2752 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-02-19 04:03:16.788  INFO 2752 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-02-19 04:03:17.065  INFO 2752 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addAnswerUsingPOST_1
+2021-02-19 04:03:17.068  INFO 2752 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingPOST_1
+2021-02-19 04:03:17.161  INFO 2752 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUserUsingPOST_1
+2021-02-19 04:03:17.197  INFO 2752 --- [main] com.cry.qa.config.RedisConfig2Test       : Started RedisConfig2Test in 10.246 seconds (JVM running for 11.052)
+2021-02-19 04:03:17.597  INFO 2752 --- [main] com.cry.qa.config.RedisConfig2           : 加载properties文件内容完成...........
+2021-02-19 04:03:17.597  INFO 2752 --- [main] com.cry.qa.config.RedisConfig2           : properties文件内容：@annotation(com.cry.qa.annotation.RedisCachePageObject)
+2021-02-19 04:03:17.637  INFO 2752 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolExecutor'
+2021-02-19 04:03:17.639  INFO 2752 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource start closing ....
+2021-02-19 04:03:17.644  INFO 2752 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-02-19 04:03:17.645  INFO 2752 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-02-19 04:03:17.646  INFO 2752 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2021-02-19 04:03:17.646  INFO 2752 --- [SpringContextShutdownHook] c.b.d.d.DynamicRoutingDataSource         : dynamic-datasource all closed success,bye

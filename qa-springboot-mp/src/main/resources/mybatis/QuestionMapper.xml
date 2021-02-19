@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cry.qa.dao.QuestionDao">
+    <resultMap id="BaseResultMap" type="com.cry.qa.domain.Question">
+        <id column="Id" property="id" jdbcType="VARCHAR"/>
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="Content" property="content" jdbcType="VARCHAR"/>
+        <result column="SupportCnt" property="supportCnt" jdbcType="INTEGER"/>
+        <result column="OpposeCnt" property="opposeCnt" jdbcType="INTEGER"/>
+        <result column="CommentTo" property="commentTo" jdbcType="VARCHAR"/>
+        <result column="time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="UserId" property="userId" jdbcType="VARCHAR"/>
+        <result column="hits" property="hits" jdbcType="INTEGER"/>
+        <result column="stick" property="stick" jdbcType="INTEGER"/>
+        <result column="comment" property="comment" jdbcType="INTEGER"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
+        <result column="experience" property="experience" jdbcType="INTEGER"/>
+        <result column="accept" property="accept" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Example_Where_Clause">
+        <where>
+            <foreach collection="oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" suffix=")" prefixOverrides="and">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach collection="criterion.value" item="listItem" open="(" close=")"
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
+            </foreach>
+        </where>
+    </sql>
+
+    <sql id="Update_By_Example_Where_Clause">
+        <where>
+            <foreach collection="example.oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" suffix=")" prefixOverrides="and">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach collection="criterion.value" item="listItem" open="(" close=")"
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
+            </foreach>
+        </where>
+    </sql>
+
+    <sql id="Base_Column_List">
+        Id
+        , title, Content, SupportCnt, OpposeCnt, CommentTo, time, UserId, hits, stick,
+        comment, status, experience, accept
+    </sql>
+
+    <resultMap type="com.cry.qa.response.QuestionViewModel" id="questionVmMapper">
+        <id column="Id" property="id" jdbcType="VARCHAR"/>
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="Content" property="content" jdbcType="VARCHAR"/>
+        <result column="SupportCnt" property="supportCnt" jdbcType="INTEGER"/>
+        <result column="OpposeCnt" property="opposeCnt" jdbcType="INTEGER"/>
+        <result column="CommentTo" property="commentTo" jdbcType="VARCHAR"/>
+        <result column="time" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="hits" property="hits" jdbcType="INTEGER"/>
+        <result column="stick" property="stick" jdbcType="INTEGER"/>
+        <result column="comment" property="comment" jdbcType="INTEGER"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
+        <result column="experience" property="experience" jdbcType="INTEGER"/>
+        <result column="accept" property="accept" jdbcType="VARCHAR"/>
+
+        <association property="user" column="UserId" javaType="com.cry.qa.response.UserViewModel">
+            <id column="UserId" property="id" jdbcType="VARCHAR"/>
+            <result column="name" property="name" jdbcType="VARCHAR"/>
+            <result column="rmb" property="rmb" jdbcType="INTEGER"/>
+            <result column="pic" property="pic" jdbcType="VARCHAR"/>
+        </association>
+
+    </resultMap>
+
+    <!--根据回答用户的ID获取问题-->
+    <select id="getUserAnswered" resultMap="questionVmMapper">
+        select distinct q.*, a.time as replytime
+        from question q
+                 LEFT JOIN answer a on q.Id = a.AnswerTo
+        where a.UserId = #{uid}
+        order by a.time desc
+    </select>
+    <select id="getQuestionVM" resultMap="questionVmMapper" parameterType="String">
+        SELECT q.*, u.`name`, u.rmb, u.pic
+        from question as q
+                 LEFT JOIN `user` as u on q.UserId = u.id
+        where q.id = #{id}
+    </select>
+
+    <select id="getQuestionVMs" resultMap="questionVmMapper" parameterType="com.cry.qa.domain.QuestionExample">
+        SELECT q.*,u.`name`,u.rmb,u.pic from question as q LEFT JOIN `user` as u on q.UserId=u.id
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+        <if test="orderByClause != null">
+            order by ${orderByClause}
+        </if>
+        <if test="limit != null">
+            <if test="offset != null">
+                limit ${offset}, ${limit}
+            </if>
+            <if test="offset == null">
+                limit ${limit}
+            </if>
+        </if>
+    </select>
+
+
+    <select id="countByExample" parameterType="com.cry.qa.domain.QuestionExample" resultType="java.lang.Integer">
+        select count(*) from question
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </select>
+    <update id="updateByExampleSelective" parameterType="map">
+        update question
+        <set>
+            <if test="record.id != null">
+                Id = #{record.id,jdbcType=VARCHAR},
+            </if>
+            <if test="record.title != null">
+                title = #{record.title,jdbcType=VARCHAR},
+            </if>
+            <if test="record.content != null">
+                Content = #{record.content,jdbcType=VARCHAR},
+            </if>
+            <if test="record.supportCnt != null">
+                SupportCnt = #{record.supportCnt,jdbcType=INTEGER},
+            </if>
+            <if test="record.opposeCnt != null">
+                OpposeCnt = #{record.opposeCnt,jdbcType=INTEGER},
+            </if>
+            <if test="record.commentTo != null">
+                CommentTo = #{record.commentTo,jdbcType=VARCHAR},
+            </if>
+            <if test="record.createTime != null">
+                time = #{record.createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="record.userid != null">
+                UserId = #{record.userId,jdbcType=VARCHAR},
+            </if>
+            <if test="record.hits != null">
+                hits = #{record.hits,jdbcType=INTEGER},
+            </if>
+            <if test="record.stick != null">
+                stick = #{record.stick,jdbcType=INTEGER},
+            </if>
+            <if test="record.comment != null">
+                comment = #{record.comment,jdbcType=INTEGER},
+            </if>
+            <if test="record.status != null">
+                status = #{record.status,jdbcType=INTEGER},
+            </if>
+            <if test="record.experience != null">
+                experience = #{record.experience,jdbcType=INTEGER},
+            </if>
+            <if test="record.accept != null">
+                accept = #{record.accept,jdbcType=VARCHAR},
+            </if>
+        </set>
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+
+</mapper>

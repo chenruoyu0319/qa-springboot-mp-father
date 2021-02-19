@@ -1,0 +1,15 @@
+
+p
+java:S1488B"ZImmediately return this expression instead of assigning it to the temporary variable "vm".(ƒ«Ò”
+L
+java:S1854e"6Remove this useless assignment to local variable "vm".(¡æÂ²
+p
+java:S1488X"ZImmediately return this expression instead of assigning it to the temporary variable "vm".(‰Ğ›†
+`
+java:S1124b"EReorder the modifiers to comply with the Java Language Specification.(Ñèªúÿÿÿÿ
+o
+java:S2293c"YReplace the type specification in this constructor call with the diamond operator ("<>").(öáô€
+p
+java:S1488M"ZImmediately return this expression instead of assigning it to the temporary variable "vm".(‰Ğ›†
+=
+java:S1481e"'Remove this unused "vm" local variable.(¡æÂ²

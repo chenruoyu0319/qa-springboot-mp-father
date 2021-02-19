@@ -1,0 +1,4 @@
+
+k	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÊ¥¨ÿÿÿÿÿ
+g	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(¯©—úúÿÿÿÿ8Å·òýô.
+f	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÅ°Ë

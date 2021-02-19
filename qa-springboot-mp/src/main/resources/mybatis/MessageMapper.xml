@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cry.qa.dao.MessageDao">
+    <resultMap id="BaseResultMap" type="com.cry.qa.domain.Message">
+        <id column="id" jdbcType="VARCHAR" property="id"/>
+        <result column="time" jdbcType="TIMESTAMP" property="insertTime"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+        <result column="href" jdbcType="VARCHAR" property="href"/>
+        <result column="msg_from" jdbcType="VARCHAR" property="msgFrom"/>
+        <result column="msg_to" jdbcType="VARCHAR" property="msgTo"/>
+        <result column="fromstatus" jdbcType="INTEGER" property="fromStatus"/>
+        <result column="tostatus" jdbcType="INTEGER" property="toStatus"/>
+        <result column="type" jdbcType="VARCHAR" property="type"/>
+        <result column="fromname" jdbcType="VARCHAR" property="fromName"/>
+        <result column="toname" jdbcType="VARCHAR" property="toName"/>
+        <result column="msg_read" jdbcType="INTEGER" property="msgRead"/>
+        <result column="title" jdbcType="VARCHAR" property="title"/>
+    </resultMap>
+
+    <delete id="deleteByUser" parameterType="String">
+        UPDATE message
+        SET delete_flag = 1
+        WHERE `msg_to` = #{userId, jdbcType=VARCHAR}
+    </delete>
+
+
+</mapper>

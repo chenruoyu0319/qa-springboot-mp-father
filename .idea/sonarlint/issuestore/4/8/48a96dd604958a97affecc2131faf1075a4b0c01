@@ -1,0 +1,15 @@
+
+T
+java:S2629U"7Use the built-in formatting to construct this argument.(ίΐ„¨8ή§‹φ.
+W
+java:S1128":Remove this unused import 'com.cry.qa.aspect.RedisAspect'.(Ύ΄¨ώ8ήκ‹φ.
+^
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(ίΐ„¨8ή§‹φ.
+w
+java:S1488<"\Immediately return this expression instead of assigning it to the temporary variable "code".(ε¶©ÿÿÿÿÿ
+G
+java:S1144"1Remove this unused private "getJedisPool" method.(¦ª†ω
+E
+java:S3740)"/Provide the parametrized type for this generic.(„ΰΤ
+G
+java:S5411K"*Use the primitive boolean expression here.(¥”υμ8¶σύφ.

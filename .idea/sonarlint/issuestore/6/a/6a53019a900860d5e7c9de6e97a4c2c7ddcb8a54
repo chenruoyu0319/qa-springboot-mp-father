@@ -1,0 +1,27 @@
+
+M
+java:S2629R"7Use the built-in formatting to construct this argument.(ï«ŠŸ
+w
+java:S2629S"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ì¿·øÿÿÿÿ
+M
+java:S2629W"7Use the built-in formatting to construct this argument.(¡œí
+M
+java:S2629d"7Use the built-in formatting to construct this argument.(ï«ŠŸ
+r
+java:S2629e"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(é‹¶ú
+X
+java:S2259e"BA "NullPointerException" could be thrown; "list" is nullable here.(é‹¶ú
+—
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(à‚½
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ãî†Ë
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(²Ÿ¾
+W
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(ï«ŠŸ
+\
+java:S3457S"AFormat specifiers should be used instead of string concatenation.(Ì¿·øÿÿÿÿ
+W
+java:S3457W"AFormat specifiers should be used instead of string concatenation.(¡œí
+W
+java:S3457d"AFormat specifiers should be used instead of string concatenation.(ï«ŠŸ
+W
+java:S3457e"AFormat specifiers should be used instead of string concatenation.(é‹¶ú

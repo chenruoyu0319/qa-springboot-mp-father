@@ -1,0 +1,27 @@
+
+d
+java:S1192"KDefine a constant instead of duplicating this literal "answercnt" 10 times.(‡Š€ßùÿÿÿÿ
+^	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ
+c
+java:S1192"JDefine a constant instead of duplicating this literal "qqopenid" 12 times.(ş÷şıÿÿÿÿ
+_
+java:S1192"KDefine a constant instead of duplicating this literal "loginTime" 10 times.(Äöí÷
+t
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+^
+java:S1192"JDefine a constant instead of duplicating this literal "wxopenid" 12 times.(€û¥õ
+e
+java:S1192"LDefine a constant instead of duplicating this literal "experience" 10 times.(å©ñÁüÿÿÿÿ
+^	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`
+java:S1192"LDefine a constant instead of duplicating this literal "createTime" 10 times.(®°”ö
+f
+java:S1192"MDefine a constant instead of duplicating this literal "questioncnt" 10 times.(ò“øßúÿÿÿÿ
+m
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌŒÊß
+b
+java:S1192"IDefine a constant instead of duplicating this literal "account" 12 times.(Š…±‡øÿÿÿÿ
+X	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+m
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù

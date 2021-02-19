@@ -1,0 +1,13 @@
+
+Q	java:S1254"<This block of commented-out lines of code should be removed.(ëù»•
+k
+java:S3252ë"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(îÖışÿÿÿÿ
+t
+java:S2293O"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ËÍŒøÿÿÿÿ
+X
+java:S3457Ú"AFormat specifiers should be used instead of string concatenation.(™äü£
+H
+java:S1602ë",Remove useless curly braces around statement(îÖışÿÿÿÿ
+Q	java:S125?"<This block of commented-out lines of code should be removed.(™Û¹²
+o
+java:S2293w"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Ï±

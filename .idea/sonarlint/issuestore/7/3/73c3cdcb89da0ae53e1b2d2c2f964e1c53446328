@@ -1,0 +1,50 @@
+
+d
+java:S4488W"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ІєЎ8пым“ш.
+[
+java:S1128"?Remove this unused import 'com.cry.qa.utils.UUIDStaticFactory'.(ƒчБK8пым“ш.
+R
+java:S3740э"/Provide the parametrized type for this generic.(«гРФ€€€€€8пым“ш.
+U
+java:S1874,"3Remove this use of "description"; it is deprecated.(÷яУƒю€€€€8пым“ш.
+j
+java:S4488K"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(пю“ ы€€€€8пым“ш.
+L
+java:S3740Ы"/Provide the parametrized type for this generic.(ФІдa8пым“ш.
+M
+java:S3740•"/Provide the parametrized type for this generic.(ІҐ≥к8пым“ш.
+M
+java:S3740ќ"/Provide the parametrized type for this generic.(Е”Ре8пым“ш.
+h
+java:S4488±"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(≈≠ ќ8пым“ш.
+L
+java:S3740Y"/Provide the parametrized type for this generic.(ј•А±8пым“ш.
+M
+java:S3740я"/Provide the parametrized type for this generic.(юрЉщ8пым“ш.
+M
+java:S3740З"/Provide the parametrized type for this generic.(≈Е»ќ8пым“ш.
+m
+java:S4488Ж"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(√Оипы€€€€8пым“ш.
+f
+java:S4488§"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°а†А8пым“ш.
+l
+java:S4488x"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(√Ѓнўщ€€€€8пым“ш.
+_
+java:S3457Ф"AFormat specifiers should be used instead of string concatenation.(‘ЧҐ“8пым“ш.
+R
+java:S3740М"/Provide the parametrized type for this generic.(сЄЪќъ€€€€8пым“ш.
+M
+java:S3740≤"/Provide the parametrized type for this generic.(ћљВМ8пым“ш.
+R
+java:S1128"6Remove this unused import 'com.alibaba.fastjson.JSON'.(÷Ґе$8пым“ш.
+Q
+java:S3740i"/Provide the parametrized type for this generic.(ћ∞Мв€€€€€8пым“ш.
+L
+java:S3740y"/Provide the parametrized type for this generic.(еЅ№€8пым“ш.
+X	java:S125E"<This block of commented-out lines of code should be removed.(сЉнЂ8пым“ш.
+e
+java:S4488g"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(№ЂПџ8пым“ш.
+R
+java:S3740о"/Provide the parametrized type for this generic.(Ўƒз°€€€€€8пым“ш.
+Q
+java:S1128"4Remove this unused import 'com.cry.qa.domain.Token'.(бчо¬8пым“ш.

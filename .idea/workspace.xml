@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7557abc8-0854-4dc2-aad1-83475fca884a" name="Default Changelist" comment="1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\maven_repository" />
+        <option name="mavenHome" value="D:\apache-maven-3.3.3-bin" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.3-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1nIIjIydZ1WAaNAPbhi1cxCSDXs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qa-springboot-mp/src/main/java/com/cry/qa/config" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34292567" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp\src\main\java\com\cry\qa\config" />
+      <recent name="C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp" />
+      <recent name="C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp\src\main\resources" />
+      <recent name="C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father" />
+      <recent name="C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\qa-springboot-mp-father\qa-springboot-mp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cry.token" />
+      <recent name="com.cry.qa.service" />
+      <recent name="com.cry.qa.utils" />
+      <recent name="com.cry.qa" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cry.qa.config" />
+      <recent name="com.cry.qa.redis" />
+      <recent name="com.cry.token.msgqueue.rabbitmq.consumer" />
+      <recent name="msgqueue.rabbitmq.consumer" />
+      <recent name="com.cry.qa.msgqueue.rabbitmq.producer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cry.qa.annotation" />
+      <recent name="com.cry.qa.utils" />
+      <recent name="com.cry.qa.aspect" />
+      <recent name="com.cry.qa.domain" />
+      <recent name="com.cry.qa.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisConfig2Test.testRedisConfig2">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageServiceImplTest.notifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-springboot-mp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cry.qa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cry.qa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.cry.qa.service.impl.MessageServiceImplTest" />
+      <option name="METHOD_NAME" value="notifyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisCachePageObjectTest.getDataFromRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-springboot-mp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cry.qa.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cry.qa.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.cry.qa.redis.RedisCachePageObjectTest" />
+      <option name="METHOD_NAME" value="getDataFromRedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisCachePageObjectTest.getKeysByPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-springboot-mp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cry.qa.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cry.qa.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.cry.qa.redis.RedisCachePageObjectTest" />
+      <option name="METHOD_NAME" value="getKeysByPattern" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisConfig2Test.testRedisConfig2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-springboot-mp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cry.qa.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cry.qa.config" />
+      <option name="MAIN_CLASS_NAME" value="com.cry.qa.config.RedisConfig2Test" />
+      <option name="METHOD_NAME" value="testRedisConfig2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisConfigTest.testGetPointcut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-springboot-mp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cry.qa.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cry.qa.config" />
+      <option name="MAIN_CLASS_NAME" value="com.cry.qa.config.RedisConfigTest" />
+      <option name="METHOD_NAME" value="testGetPointcut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="token-consumer-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cry.token.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="qa-springboot-mp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cry.qa.QaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MessageServiceImplTest.notifyTest" />
+      <item itemvalue="JUnit.RedisCachePageObjectTest.getDataFromRedis" />
+      <item itemvalue="JUnit.RedisCachePageObjectTest.getKeysByPattern" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.QaApplication" />
+      <item itemvalue="JUnit.RedisConfigTest.testGetPointcut" />
+      <item itemvalue="JUnit.RedisConfig2Test.testRedisConfig2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisConfig2Test.testRedisConfig2" />
+        <item itemvalue="JUnit.RedisConfigTest.testGetPointcut" />
+        <item itemvalue="JUnit.RedisCachePageObjectTest.getKeysByPattern" />
+        <item itemvalue="JUnit.RedisCachePageObjectTest.getDataFromRedis" />
+        <item itemvalue="JUnit.MessageServiceImplTest.notifyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7557abc8-0854-4dc2-aad1-83475fca884a" name="Default Changelist" comment="" />
+      <created>1611071316107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611071316107</updated>
+      <workItem from="1611071318018" duration="1018000" />
+      <workItem from="1611129721943" duration="61954000" />
+      <workItem from="1611307149482" duration="4730000" />
+      <workItem from="1611327667289" duration="4551000" />
+      <workItem from="1611386088169" duration="28954000" />
+      <workItem from="1611435420622" duration="20253000" />
+      <workItem from="1611500938539" duration="7533000" />
+      <workItem from="1611516686575" duration="483000" />
+      <workItem from="1611517221972" duration="2824000" />
+      <workItem from="1611526039416" duration="24181000" />
+      <workItem from="1611602485960" duration="2613000" />
+      <workItem from="1611609350333" duration="8984000" />
+      <workItem from="1611670645701" duration="12012000" />
+      <workItem from="1611687083091" duration="11248000" />
+      <workItem from="1611726269123" duration="467000" />
+      <workItem from="1611726920830" duration="7094000" />
+      <workItem from="1611750453160" duration="9540000" />
+      <workItem from="1611786900861" duration="362000" />
+      <workItem from="1611787284633" duration="210000" />
+      <workItem from="1611788013026" duration="834000" />
+      <workItem from="1611790949745" duration="1715000" />
+      <workItem from="1611792863442" duration="124000" />
+      <workItem from="1611793315249" duration="39000" />
+      <workItem from="1611840432199" duration="21493000" />
+      <workItem from="1611937717955" duration="24864000" />
+      <workItem from="1612008535981" duration="65000" />
+      <workItem from="1612088567950" duration="3590000" />
+      <workItem from="1612148659061" duration="1346000" />
+      <workItem from="1612159462134" duration="48596000" />
+      <workItem from="1612277629853" duration="64000" />
+      <workItem from="1612310014943" duration="145000" />
+      <workItem from="1612310267164" duration="777000" />
+      <workItem from="1612344295927" duration="2618000" />
+      <workItem from="1612509019608" duration="24444000" />
+      <workItem from="1612590335716" duration="28000" />
+      <workItem from="1612592757089" duration="2060000" />
+      <workItem from="1612669554266" duration="699000" />
+      <workItem from="1612684287767" duration="44000" />
+      <workItem from="1612691913226" duration="22000" />
+      <workItem from="1612702974308" duration="2428000" />
+      <workItem from="1612885085855" duration="12107000" />
+      <workItem from="1612945862487" duration="10995000" />
+      <workItem from="1613228224965" duration="521000" />
+      <workItem from="1613228781158" duration="38000" />
+      <workItem from="1613559269790" duration="11100000" />
+      <workItem from="1613631188854" duration="15331000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1612344054444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612344054444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+
+—
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(à‚½
+M
+java:S2629O"7Use the built-in formatting to construct this argument.(ï«ŠŸ
+W
+java:S3457O"AFormat specifiers should be used instead of string concatenation.(ï«ŠŸ
+Q	java:S125J"<This block of commented-out lines of code should be removed.(ºº¡ù
+~
+java:S2629P"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ü® äşÿÿÿÿ8¿ìÏöô.
+c
+java:S3457P"AFormat specifiers should be used instead of string concatenation.(ü® äşÿÿÿÿ8¿ìÏöô.

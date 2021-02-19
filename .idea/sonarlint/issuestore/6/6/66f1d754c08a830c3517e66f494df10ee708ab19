@@ -1,0 +1,33 @@
+
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe8­ä¿•ö.
+l
+java:S1192Ÿ"IDefine a constant instead of duplicating this literal "comment" 10 times.(˜·†‘üÿÿÿÿ8­ä¿•ö.
+j
+java:S1192ç"LDefine a constant instead of duplicating this literal "supportcnt" 10 times.(×˜Ï8­ä¿•ö.
+v
+java:S2293f"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù8­ä¿•ö.
+n
+java:S1192£"KDefine a constant instead of duplicating this literal "opposecnt" 10 times.(šòÊÔşÿÿÿÿ8­ä¿•ö.
+l
+java:S1192¡"IDefine a constant instead of duplicating this literal "content" 12 times.(Æì„›øÿÿÿÿ8­ä¿•ö.
+k
+java:S1192Ó"HDefine a constant instead of duplicating this literal "accept" 12 times.(Â¸´ãüÿÿÿÿ8­ä¿•ö.
+f
+java:S1192á"HDefine a constant instead of duplicating this literal "userid" 12 times.(äµÑ‹8­ä¿•ö.
+i
+java:S1192ß"KDefine a constant instead of duplicating this literal "commentto" 12 times.(ûÏóÏ8­ä¿•ö.
+g	java:S112w"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ8­ä¿•ö.
+b	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+8­ä¿•ö.
+o
+java:S1192—"LDefine a constant instead of duplicating this literal "experience" 10 times.(å©ñÁüÿÿÿÿ8­ä¿•ö.
+k
+java:S1192Û"HDefine a constant instead of duplicating this literal "status" 10 times.(Æ‹óÁùÿÿÿÿ8­ä¿•ö.
+g	java:S112~"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ8­ä¿•ö.
+e
+java:S1192ã"GDefine a constant instead of duplicating this literal "stick" 10 times.(½‹±8­ä¿•ö.
+}
+java:S1488G"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì8­ä¿•ö.
+e
+java:S1192Û"GDefine a constant instead of duplicating this literal "title" 12 times.(ï¶“8­ä¿•ö.

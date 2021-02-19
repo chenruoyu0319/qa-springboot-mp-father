@@ -1,0 +1,22 @@
+
+O
+java:S1602İ",Remove useless curly braces around statement(¢Ï®‰ûÿÿÿÿ8Á ¿•ö.
+g	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(¡Ì¦şÿÿÿÿ8Á ¿•ö.
+Q
+java:S1481Ø".Remove this unused "loginInfo" local variable.(­™¼®úÿÿÿÿ8Á ¿•ö.
+Y	java:S125ö"<This block of commented-out lines of code should be removed.(¾Å8Á ¿•ö.
+r
+java:S3252İ"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(¢Ï®‰ûÿÿÿÿ8Á ¿•ö.
+c	java:S112ë"FDefine and throw a dedicated exception instead of using a generic one.(²¾äÙ8Á ¿•ö.
+c	java:S112±"FDefine and throw a dedicated exception instead of using a generic one.(ÚÃòŒ8Á ¿•ö.
+c	java:S112ş"FDefine and throw a dedicated exception instead of using a generic one.(áÚğÂ8Á ¿•ö.
+g
+java:S1128"JRemove this unused import 'com.baomidou.dynamic.datasource.annotation.DS'.(£ÄÌ±8ğ™ÿ®÷.
+g	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(‚íƒ²úÿÿÿÿ8Á ¿•ö.
+c	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(²¾äÙ8Á ¿•ö.
+\
+java:S4973°"9Use the "equals" method if value comparison was intended.(¶Ÿş—ıÿÿÿÿ8Á ¿•ö.
+`
+java:S1854Ø"=Remove this useless assignment to local variable "loginInfo".(­™¼®úÿÿÿÿ8Á ¿•ö.
+@
+java:S1659Å""Declare "size" on a separate line.(è­ùÆ8Á ¿•ö.

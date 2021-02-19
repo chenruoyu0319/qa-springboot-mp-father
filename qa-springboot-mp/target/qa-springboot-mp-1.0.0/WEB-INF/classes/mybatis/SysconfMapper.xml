@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cry.qa.dao.SysConfDao">
+    <select id="getVersion" resultType="String">
+       SELECT `sys_value` FROM sysconf  WHERE `sys_key`='version' and `delete_flag` = 0 LIMIT 1
+    </select>
+
+    <select id="getDownload" resultType="int">
+        SELECT `sys_value` FROM sysconf  WHERE `sys_key`='download' LIMIT 1
+    </select>
+
+    <select id="addDownload" parameterType="int">
+        UPDATE sysconf SET `sys_value` = `sys_value` + 1 WHERE `sys_key`='download'
+    </select>
+</mapper>

@@ -1,0 +1,27 @@
+
+Y
+java:S2629I"7Use the built-in formatting to construct this argument.(íàÙ•úÿÿÿÿ8ÕÃÆÛô.
+Y
+java:S26299"7Use the built-in formatting to construct this argument.(‚ğŠÉüÿÿÿÿ8øàÿõô.
+X	java:S125S"<This block of commented-out lines of code should be removed.(Íëü­8øÿÛô.
+c
+java:S3457C"AFormat specifiers should be used instead of string concatenation.(¸©È½şÿÿÿÿ8øàÿõô.
+c
+java:S3457I"AFormat specifiers should be used instead of string concatenation.(íàÙ•úÿÿÿÿ8ÕÃÆÛô.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ÇŒ´ùÿÿÿÿ8Ñèöô.
+c
+java:S34579"AFormat specifiers should be used instead of string concatenation.(‚ğŠÉüÿÿÿÿ8øàÿõô.
+W	java:S125_"<This block of commented-out lines of code should be removed.(Ã›ß%8—°—Ûô.
+T
+java:S2629B"7Use the built-in formatting to construct this argument.(®è‘ı8øàÿõô.
+v
+java:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8•’—õô.
+]	java:S1257"<This block of commented-out lines of code should be removed.(¢£çäøÿÿÿÿ8„¹ãôô.
+^
+java:S3457B"AFormat specifiers should be used instead of string concatenation.(®è‘ı8øàÿõô.
+~
+java:S2629C"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(¸©È½şÿÿÿÿ8øàÿõô.
+T
+java:S26298"7Use the built-in formatting to construct this argument.(®è‘ı8øàÿõô.
+^
+java:S34578"AFormat specifiers should be used instead of string concatenation.(®è‘ı8øàÿõô.

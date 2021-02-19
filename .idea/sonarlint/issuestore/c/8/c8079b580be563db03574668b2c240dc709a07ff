@@ -1,0 +1,16 @@
+
+:
+java:S26295"$Invoke method(s) only conditionally.(Ý©§£
+e
+java:S4488."JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ëä¢Œþÿÿÿÿ
+E
+java:S37400"/Provide the parametrized type for this generic.(ÿÍ²†
+Q	java:S1253"<This block of commented-out lines of code should be removed.(™ÑâÆ
+a
+java:S2259:"F"NullPointerException" will be thrown when invoking method "format()".(€…º¢ûÿÿÿÿ
+R
+java:S2629="7Use the built-in formatting to construct this argument.(ü°ò£ùÿÿÿÿ
+\
+java:S3457="AFormat specifiers should be used instead of string concatenation.(ü°ò£ùÿÿÿÿ
+G
+java:S1874"3Remove this use of "description"; it is deprecated.(¡¥/

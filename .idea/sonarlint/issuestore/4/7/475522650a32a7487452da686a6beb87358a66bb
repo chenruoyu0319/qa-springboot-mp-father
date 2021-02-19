@@ -1,0 +1,25 @@
+
+M
+java:S1874"6Remove this use of "returnResource"; it is deprecated.(ƒå»ö
+K
+java:S2209É"5Change this instance-reference to a static reference.(¨ãœ
+u
+java:S1488Q"`Immediately return this expression instead of assigning it to the temporary variable "resource".(ÏúŸt
+W	java:S125¹"<This block of commented-out lines of code should be removed.(îµ‰úüÿÿÿÿ
+O
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å8ØğĞˆ÷.
+W	java:S125"<This block of commented-out lines of code should be removed.(îµ‰úüÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(†Ê€ğ
+r
+java:S1192¼"VDefine a constant instead of duplicating this literal "jedis set status = {}" 6 times.(ÁÚú™üÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(–¼’ˆûÿÿÿÿ8ÿ®æ÷.
+j
+java:S1192¾"SDefine a constant instead of duplicating this literal "ä¿å­˜ç¼“å­˜å‡ºé”™" 8 times.(õ°£ü
+[
+java:S1124N"EReorder the modifiers to comply with the Java Language Specification.(òñ¸¼
+W	java:S125ã"<This block of commented-out lines of code should be removed.(îµ‰úüÿÿÿÿ
+W	java:S125¼"<This block of commented-out lines of code should be removed.(îµ‰úüÿÿÿÿ
+u
+java:S1488d"`Immediately return this expression instead of assigning it to the temporary variable "resource".(¿İÃn
+S
+java:S1874v"6Remove this use of "returnResource"; it is deprecated.(«ô€ò8Â±û÷.

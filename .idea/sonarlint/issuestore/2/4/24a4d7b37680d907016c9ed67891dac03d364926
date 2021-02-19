@@ -1,0 +1,14 @@
+
+\
+java:S1128"?Remove this unused import 'com.cry.qa.service.QuestionService'.(Ê†ïø8æ£ø’ö.
+~
+java:S1488_"\Immediately return this expression instead of assigning it to the temporary variable "keys".(àÖ³Ëùÿÿÿÿ8Äˆì’ö.
+N
+java:S1144"1Remove this unused private "getJedisPool" method.(¦ª†ù8Äˆì’ö.
+X	java:S1251"<This block of commented-out lines of code should be removed.(çÔ„‚8Äˆì’ö.
+V
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8Äˆì’ö.
+G
+java:S1068"*Remove this unused "LOGGER" private field.(ˆ–š‹8Äˆì’ö.
+}
+java:S1488O"[Immediately return this expression instead of assigning it to the temporary variable "del".(ÐƒÍ•þÿÿÿÿ8Äˆì’ö.

@@ -1,0 +1,21 @@
+
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ì”®Ýô.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‡‰¯Ýô.
+I
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ì”®Ýô.
+e
+java:S1128"CRemove this unused import 'java.security.NoSuchAlgorithmException'.(ŒòÍ¾þÿÿÿÿ8ì”®Ýô.
+^
+java:S1128"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“8ì”®Ýô.
+N
+java:S16025",Remove useless curly braces around statement(îÖýžþÿÿÿÿ8‡‰¯Ýô.
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚÞ8‡‰¯Ýô.
+q
+java:S32525"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(îÖýžþÿÿÿÿ8‡‰¯Ýô.
+W
+java:S1128":Remove this unused import 'org.assertj.core.util.Strings'.(ýÉÛ‹8ì”®Ýô.
+M
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8‡‰¯Ýô.
